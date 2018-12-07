@@ -50,4 +50,4 @@ Wormhole is a fast, portable Omni Layer implementation that is based off the Bit
 
 ## License
 
-[MIT](./LICENSE)
+[Apache-2.0](./LICENSE)
