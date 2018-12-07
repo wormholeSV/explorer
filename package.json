@@ -1,0 +1,48 @@
+{
+  "name": "WormholeExplorer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "bchaddrjs": "^0.2.2",
+    "chart.js": "^2.7.3",
+    "element-ui": "^2.4.8",
+    "mockjs": "^1.0.1-beta3",
+    "moment": "^2.22.2",
+    "register-service-worker": "^1.0.0",
+    "vue": "^2.5.17",
+    "vue-clipboard2": "^0.2.1",
+    "vue-i18n": "^8.2.1",
+    "vue-router": "^3.0.1",
+    "vue-visible": "^1.0.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^3.0.0",
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-plugin-pwa": "^3.0.1",
+    "@vue/cli-plugin-unit-mocha": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/eslint-config-standard": "^3.0.5",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "autoprefixer": "^9.2.1",
+    "axios": "^0.18.0",
+    "babel-plugin-component": "^1.1.1",
+    "chai": "^4.1.2",
+    "node-sass": "^4.9.0",
+    "postcss-import": "^12.0.0",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-url": "^8.0.0",
+    "sass-loader": "^7.0.1",
+    "vue-cli-plugin-pug": "^1.0.7",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
