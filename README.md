@@ -7,12 +7,17 @@ This is the repository for [Wormhole explorer](https://explorer.wormhole.cash).
 
 1. Install [node.js](https://nodejs.org) if you don't have them already.
 2. `cd` to the repository directory and run the following command `npm install`.
-3. Run the script `npm run serve`.
-4. Then, load  [http://localhost:3000](http://localhost:3000) on your browser.
+3. Set the following environment variables.
+    - `EXPLORER_MAINNETAPI_URL`
+    - `EXPLORER_MAINNETAPI_PATH`
+    - `EXPLORER_TESTNETAPI_URL`
+    - `EXPLORER_TESTNETAPI_PATH`
+4. Run the script `npm run serve`.
+5. Then, load  [http://localhost:8080](http://localhost:8080) on your browser.
 
 ## Backend Api Service
 
- Backend Api Service for this repository,more details at [Backend Api Service](https://github.com/copernet/whcexplorer).
+ Backend Api Service for this repository,more details at [Backend Api Service](https://github.com/wormholeSV/whcexplorer).
 
 ## Tech Stack
 
